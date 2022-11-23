@@ -18,21 +18,6 @@ header{
     height: auto;
 }
 
-
-a{
-    text-decoration: none;
-}
-
-a:visited{
-    color: goldenrod;
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    justify-content: right;
-}
-
 .title {
     font-family: "Montserrat", sans-serif;
     font-size: 60px;
@@ -106,6 +91,27 @@ footer{
 .button:hover {
     background-color: goldenrod;
     
+}
+
+.custom-navbar{
+    background-color: black;
+    color: goldenrod;
+    display: inline-block;
+    justify-content: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: goldenrod;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: right;
 }
 
 /*áreas acomodadas*/

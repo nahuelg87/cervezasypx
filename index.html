@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <script type="text/javascript" src="./js/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet"> 
     <title>Cerveza SYP - Made in Rodriguez</title>
@@ -13,25 +14,40 @@
 <body>
     <div class="contenedor">
         <header class="header">
-            <nav class="nav">
-                <ul class="ul">
-                <li class="button">
-                <a href="#">Home</a>
-                </li>
-                <li class="button">
-                <a href="./pages/about.html">About</a>
-                </li>
-                <li class="button">
-                <a href="./pages/beers.html">Beers</a>
-                </li>
-                <li class="button"> 
-                <a href="./pages/craft.html">Craft</a>
-                </li>
-                <li class="button">
-                <a href="./pages/info.html">Info</a>
-                </li>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-warning" class="custom-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span>
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://lottie.host/7111e6be-c75d-41a3-abad-014505e72f05/WHGnD9jnOu.json"
+                                background="transparent" speed="1" style="width: 24px; height: 24px;" hover></lottie-player>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./pages/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./pages/beers.html">Beers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./pages/craft.html">Craft</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./pages/info.html">Info</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
+    
             <br>
             <br>
             <div class="titles">
@@ -82,5 +98,9 @@
             </section>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
