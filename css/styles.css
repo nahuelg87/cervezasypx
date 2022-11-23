@@ -18,6 +18,7 @@ header{
     color: goldenrod;
 }
 
+
 a{
     text-decoration: none;
 }
@@ -42,13 +43,16 @@ nav ul li{
     text-shadow: black 0 -4px;
     text-decoration: underline;
     color: goldenrod;
+    text-align: center;
 }
 
 h2{
     color: goldenrod;
     font-family: 'Great Vibes', cursive;
     font-size: 40px;
+    text-align: center;
 }
+
 
 footer{
     color: goldenrod;
@@ -56,16 +60,18 @@ footer{
 
 .main{
     width: 100%;
+    height: 700px;
+    background-image:url('../assets/sypbgd.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 /*área de grilla*/
 .contenedor{
     display: grid;
-    background-image: url("../assets/barril.png");
-    background-position: center;
-    height: 1000px;
     grid-template-columns: 100%;
-    grid-template-rows: 20px 6fr 40px;
+    grid-template-rows: 20% 80% 20%;
     grid-template-areas: 
     "header"
     "main"
