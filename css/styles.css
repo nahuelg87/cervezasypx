@@ -133,12 +133,34 @@ footer{
         }
 }
 
-@media (min-width:801px) and (max-width:1600px) {
+@media (min-width:801px) and (max-width:1200px) {
     #video_background {
         position: fixed;
         bottom: 0px;
         right: 0px;
         left: -100px;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1000;
+        overflow: hidden;
+    }
+    .title2{
+        text-shadow: 2px 2px black;
+    }
+    .nav{
+        background-color: black;
+        right:0;
+        }
+}
+
+@media (min-width:1201px) and (max-width:2000px) {
+    #video_background {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
         min-width: 100%;
         min-height: 100%;
         width: auto;
