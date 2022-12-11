@@ -1,4 +1,13 @@
 footer{
-    color: goldenrod;
-    background-color: black;
+    color: black;
+    background-color:goldenrod;
+    text-decoration: none;  
+    font-weight:bolder;
+}
+
+.footernav a {
+    list-style: none;
+    text-decoration: none;  
+    flex-direction: row;
+    justify-content:center;
 }
