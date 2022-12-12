@@ -1,0 +1,31 @@
+.title {
+    font-family: $fonts;
+    font-size: 60px;
+    letter-spacing: 1vw;
+    line-height: 10vh;
+    margin: 0;
+    text-transform: uppercase;
+    text-shadow: black 0 -4px;
+    text-decoration: underline;
+    color: $primary-color;
+    text-align: center;
+}
+
+h2{
+    color: $primary-color;
+    font-family: $fonts2;
+    font-size: 40px;
+    text-align: center;
+}
+
+#video_background {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}

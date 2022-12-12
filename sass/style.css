@@ -1,7 +1,20 @@
 @charset "UTF-8";
 /*mobile first*/
+/*Base imports*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter Tight", sans-serif;
+}
+
+* {
+  font-display: swap;
+}
+
+/*utilities Import*/
+/*Layout Import*/
 footer {
   color: black;
   background-color: goldenrod;
@@ -16,23 +29,35 @@ footer {
   justify-content: center;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter Tight", sans-serif;
+.legal p {
+  color: black;
 }
 
-* {
-  font-display: swap;
+.contact-form {
+  width: 600px;
+  height: 450px;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 50px;
+  font-size: 25px;
 }
 
-body {
-  text-align: center;
+.contact-form ul li {
+  list-style: none;
+  color: goldenrod;
+  text-align: right;
+  padding-right: 140px;
+  padding-top: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
 }
 
-/*h1*/
 .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Sans-serif";
   font-size: 60px;
   letter-spacing: 1vw;
   line-height: 10vh;
@@ -44,10 +69,9 @@ body {
   text-align: center;
 }
 
-/*h2*/
 h2 {
   color: goldenrod;
-  font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes", "cursive";
   font-size: 40px;
   text-align: center;
 }
@@ -64,168 +88,7 @@ h2 {
   overflow: hidden;
 }
 
-.main {
-  width: auto;
-  height: 700px;
-  background-image: url("../assets/fondo.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.logo {
-  width: auto;
-  height: 80%;
-  bottom: 10;
-}
-
-.logo:hover {
-  rotate: y 360deg;
-  transition: rotate 1s ease-in-out;
-}
-
-.info {
-  display: flex;
-  justify-content: center;
-}
-
-.informacion {
-  color: goldenrod;
-  font-size: 25px;
-  text-shadow: 2px 2px black;
-}
-
-.contact-form {
-  width: 600px;
-  height: 450px;
-  border: 1px solid goldenrod;
-  border-radius: 1em;
-  font-family: "Inter Tight", sans-serif;
-  color: white;
-  background: rgba(0, 0, 0, 0.7);
-  margin: 50px;
-  font-size: 18px;
-}
-
-.contact-form ul li {
-  list-style: none;
-  color: goldenrod;
-  text-align: right;
-  padding-right: 140px;
-  padding-top: 8px;
-}
-
-.map {
-  width: 600px;
-  height: 450px;
-  border: 1px solid goldenrod;
-  border-radius: 1em;
-  font-family: "Inter Tight", sans-serif;
-  margin: 50px;
-}
-
-.item img {
-  top: 0;
-  left: 0;
-  width: 60%;
-  height: 80%;
-}
-
-.acerca {
-  width: 100%;
-  height: 100%;
-  border: 1px solid goldenrod;
-  border-radius: 1em;
-  font-family: "Inter Tight", sans-serif;
-  font-size: 90%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-p {
-  color: goldenrod;
-}
-
-.elaboracion {
-  width: 30%;
-  height: 50%;
-  display: inline-block;
-}
-
-.container-fluid {
-  background-color: goldenrod;
-}
-
-.main2 {
-  width: 100%;
-  height: 100%;
-  background-image: url("../assets/fondo.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.acercacontenedor {
-  width: 90%;
-  height: 100%;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 auto;
-  padding: 1%;
-}
-
-.about {
-  width: 100%;
-  height: 500px;
-  border: 1px solid goldenrod;
-  border-radius: 1em;
-  font-family: "Inter Tight", sans-serif;
-  font-size: 130%;
-  background: rgba(0, 0, 0, 0.7);
-  overflow: hidden;
-  text-align: left;
-}
-
-.acercacontenedor2 {
-  width: 90%;
-  height: auto;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 auto;
-  padding: 1%;
-}
-
-.about1 {
-  width: 100%;
-  height: auto;
-  border: 1px solid goldenrod;
-  border-radius: 1em;
-  font-family: "Inter Tight", sans-serif;
-  font-size: 130%;
-  background: rgba(0, 0, 0, 0.7);
-  overflow: hidden;
-  text-align: center;
-  flex-wrap: wrap;
-  padding: 10px;
-  justify-content: center;
-}
-
-.aboutimg {
-  width: 25%;
-  height: auto;
-}
-
-.craftimg {
-  width: 25%;
-  height: auto;
-  border: 1px solid goldenrod;
-}
-
-.legal p {
-  color: black;
-}
-
+/*Themes Import*/
 /*áreas acomodadas*/
 @media (min-width: 300px) and (max-width: 354px) {
   .title {
@@ -284,7 +147,8 @@ p {
     padding-right: 80px;
     padding-top: 2px;
     padding-bottom: 2px;
-    font-size: 8px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
   }
   #video_background {
     position: absolute;
@@ -376,7 +240,8 @@ p {
     padding-right: 40%;
     padding-top: 2px;
     padding-bottom: 2px;
-    font-size: 8px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
   }
   #video_background {
     position: absolute;
@@ -468,7 +333,8 @@ p {
     padding-right: 40%;
     padding-top: 2px;
     padding-bottom: 2px;
-    font-size: 8px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
   }
   #video_background {
     position: absolute;
@@ -561,7 +427,8 @@ p {
     padding-right: 40%;
     padding-top: 2px;
     padding-bottom: 2px;
-    font-size: 8px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
   }
   #video_background {
     position: absolute;
@@ -652,7 +519,8 @@ p {
     padding-right: 40%;
     padding-top: 2px;
     padding-bottom: 2px;
-    font-size: 8px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
   }
   #video_background {
     position: absolute;
@@ -685,4 +553,133 @@ p {
     width: 100%;
     height: 60%;
   }
+}
+/*Pages Import*/
+.acercacontenedor {
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.about {
+  width: 100%;
+  height: 500px;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 130%;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  text-align: left;
+}
+
+.aboutimg {
+  width: 25%;
+  height: auto;
+}
+
+.main2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/fondo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  text-align: center;
+}
+
+.main {
+  width: auto;
+  height: 700px;
+  background-image: url(../assets/fondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: auto;
+  height: 80%;
+  bottom: 10;
+}
+
+.logo:hover {
+  rotate: y 360deg;
+  transition: rotate 1s ease-in-out;
+}
+
+p {
+  color: goldenrod;
+}
+
+.container-fluid {
+  background-color: goldenrod;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.informacion {
+  color: goldenrod;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+.crafting {
+  width: 25%;
+  height: auto;
+  border: 1px solid goldenrod;
+}
+
+.craftingcontenedor {
+  width: 90%;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.about1 {
+  width: 100%;
+  height: auto;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 130%;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+.main2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/fondo.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*Modules Import*/
+.map {
+  width: 600px;
+  height: 450px;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  font-family: "Montserrat", "Sans-serif";
+  margin: 50px;
 }/*# sourceMappingURL=style.css.map */
