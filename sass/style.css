@@ -67,7 +67,7 @@ h2 {
 .main {
   width: auto;
   height: 700px;
-  background-image: url("../assets/fondo.png");
+  background-image: url("../assets/fondo.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -158,7 +158,7 @@ p {
 .main2 {
   width: 100%;
   height: 100%;
-  background-image: url("../assets/fondo.png");
+  background-image: url("../assets/fondo.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
