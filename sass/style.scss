@@ -144,6 +144,37 @@
     height: auto;
 }
 
+.crafting{
+    width: 100%;
+    height: auto;
+    border: 1px solid $primary-color;
+}
+
+.craftingcontenedor{
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.about1{
+    width: 100%;
+    height: auto;
+    border: 1px solid goldenrod;
+    border-radius: 1em;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 130%;
+    background: rgba(0,0,0,0.7);
+    overflow: hidden;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 }
 @media (min-width:381px) and (max-width:500px) {
     .title{
