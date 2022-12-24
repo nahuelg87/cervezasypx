@@ -159,15 +159,93 @@ p {
   background-color: goldenrod;
 }
 
+.infocontenedor {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.about2 {
+  width: 45%;
+  height: 500px;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 130%;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .info {
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.about3 {
+  width: 45%;
+  height: 500px;
+  border: 1px solid goldenrod;
+  border-radius: 1em;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 130%;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.map {
+  margin: 0;
+  width: 400px;
+  height: 600px;
+}
+
+.contact-form {
+  margin: 0 0 0 0;
+  width: 400px;
+  height: 400px;
+}
+
+.about2 ul li {
+  list-style: none;
+  color: goldenrod;
+  text-align: right;
+  padding: 0;
+  padding-right: 80px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.infox {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .informacion {
   color: goldenrod;
-  font-size: 25px;
-  text-shadow: 2px 2px black;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 30px;
+  padding: 1px 1px 1px 1px;
+  margin: 20px 20px 20px 20px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .crafting {
