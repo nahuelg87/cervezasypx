@@ -6,19 +6,18 @@
     justify-content: center;
     }
 .about2{
-    width: 45%;
+    width: 25%;
     height: 500px;
     border: 1px solid goldenrod;
     border-radius: 1em;
     font-family: 'Inter Tight', sans-serif;
-    font-size: 130%;
+    font-size: 200%;
     background: rgba(0,0,0,0.7);
     overflow: hidden;
     padding: 10px;
     margin: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     }
 .info{
     width: auto;
@@ -30,7 +29,7 @@
     padding: 1%;
     }
 .about3{
-    width: 45%;
+    width: 25%;
     height: 500px;
     border: 1px solid goldenrod;
     border-radius: 1em;
@@ -47,12 +46,12 @@
 .map{
     margin: 0;
     width: 400px;
-    height: 600px;
+    height: 500px;
     }
 .contact-form{
     margin: 0 0 0 0;
     width: 400px;
-    height: 400px;
+    height: 500px;
     }
 .about2 ul li{
     list-style: none;
