@@ -243,6 +243,7 @@ p {
 }
 
 @media (min-width: 300px) and (max-width: 380px) {
+  /*Index*/
   .title {
     width: 100%;
     font-size: 33px;
@@ -272,6 +273,86 @@ p {
     background-size: cover;
     background-position: center;
   }
+  #video_background {
+    position: absolute;
+    bottom: -80px;
+    top: -65px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 50%;
+    width: 100%;
+    height: 50%;
+    z-index: -1000;
+    overflow: hidden;
+  }
+  /*About*/
+  .about {
+    width: 100%;
+    height: 100%;
+    border: 1px solid goldenrod;
+    border-radius: 1em;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    text-align: left;
+    padding: 10%;
+    margin: 2%;
+  }
+  .aboutimg {
+    width: 100%;
+    height: auto;
+  }
+  .about1 {
+    width: 100%;
+    height: auto;
+    border: 1px solid goldenrod;
+    border-radius: 1em;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 130%;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  /*Beers*/
+  .carousel {
+    width: 100%;
+    height: 90%;
+  }
+  .carousel-inner {
+    width: 80%;
+    height: 90%;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 80%;
+  }
+  .carousel-item :active {
+    width: 100%;
+    height: 80%;
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+  }
+  /*Crafting*/
+  .craftingcontenedor {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1%;
+  }
+  .crafting {
+    width: 100%;
+    height: auto;
+    border: 1px solid goldenrod;
+  }
+  /*Info*/
   .info {
     display: flex;
     flex-direction: column;
@@ -302,6 +383,38 @@ p {
     font-size: 12px;
     font-family: "Inter Tight", sans-serif;
   }
+}
+@media (min-width: 381px) and (max-width: 500px) {
+  /*Index*/
+  .title {
+    width: 100%;
+    font-size: 33px;
+  }
+  .title2 {
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+    top: 100px;
+  }
+  .nav {
+    background-color: black;
+  }
+  body {
+    background-color: black;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+    bottom: 10px;
+    right: -10px;
+  }
+  .main {
+    width: 100%;
+    height: 490px;
+    background-image: url("../assets/fondo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   #video_background {
     position: absolute;
     bottom: -80px;
@@ -314,56 +427,23 @@ p {
     z-index: -1000;
     overflow: hidden;
   }
-  .carousel {
-    width: 100%;
-    height: 90%;
-  }
-  .carousel-inner {
-    width: 80%;
-    height: 90%;
-  }
-  .carousel-item {
-    width: 100%;
-    height: 80%;
-  }
-  .carousel-item :active {
-    width: 100%;
-    height: 80%;
-  }
-  .item img {
-    width: 100%;
-    height: 100%;
-  }
+  /*About*/
   .about {
     width: 100%;
     height: 100%;
     border: 1px solid goldenrod;
     border-radius: 1em;
     font-family: "Inter Tight", sans-serif;
-    font-size: 80%;
+    font-size: 90%;
     background: rgba(0, 0, 0, 0.7);
     overflow: hidden;
     text-align: left;
-    padding: 10%;
+    padding: 5%;
     margin: 2%;
   }
   .aboutimg {
     width: 100%;
     height: auto;
-  }
-  .crafting {
-    width: 100%;
-    height: auto;
-    border: 1px solid goldenrod;
-  }
-  .craftingcontenedor {
-    width: 90%;
-    height: auto;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0 auto;
-    padding: 1%;
   }
   .about1 {
     width: 100%;
@@ -378,79 +458,7 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
   }
-}
-@media (min-width: 381px) and (max-width: 500px) {
-  .title {
-    width: 100%;
-    font-size: 40px;
-  }
-  .title2 {
-    font-size: 25px;
-    text-shadow: 2px 2px black;
-    top: 100px;
-  }
-  .nav {
-    background-color: black;
-  }
-  body {
-    background-color: black;
-  }
-  .logo {
-    width: 80%;
-    height: 100%;
-    bottom: 10;
-    right: -10px;
-  }
-  .main {
-    width: auto;
-    height: 490px;
-    background-image: url("../assets/fondo.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    height: 450px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .map {
-    margin: 0;
-    width: 100%;
-    height: 34%;
-  }
-  .contact-form {
-    margin: 0 0 0 0;
-    width: 100%;
-    height: 300px;
-  }
-  .contact-form ul li {
-    list-style: none;
-    color: goldenrod;
-    text-align: right;
-    padding: 0;
-    padding-right: 40%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    font-size: 12px;
-    font-family: "Inter Tight", sans-serif;
-  }
-  #video_background {
-    position: absolute;
-    bottom: -80px;
-    top: -65px;
-    right: 0px;
-    min-width: 100%;
-    min-height: 50%;
-    width: 100%;
-    height: 50%;
-    z-index: -1000;
-    overflow: hidden;
-  }
+  /*Beers*/
   .carousel {
     width: 100%;
     height: 96%;
@@ -471,28 +479,7 @@ p {
     width: 100%;
     height: 100%;
   }
-  .about {
-    width: 100%;
-    height: 100%;
-    border: 1px solid goldenrod;
-    border-radius: 1em;
-    font-family: "Inter Tight", sans-serif;
-    font-size: 90%;
-    background: rgba(0, 0, 0, 0.7);
-    overflow: hidden;
-    text-align: left;
-    padding: 5%;
-    margin: 2%;
-  }
-  .aboutimg {
-    width: 100%;
-    height: auto;
-  }
-  .crafting {
-    width: 100%;
-    height: auto;
-    border: 1px solid goldenrod;
-  }
+  /*Crafting*/
   .craftingcontenedor {
     width: 90%;
     height: auto;
@@ -501,6 +488,11 @@ p {
     align-items: center;
     margin: 0 auto;
     padding: 1%;
+  }
+  .crafting {
+    width: 100%;
+    height: auto;
+    border: 1px solid goldenrod;
   }
   .about1 {
     width: 100%;
@@ -514,5 +506,71 @@ p {
     padding: 10px;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+  /*Info*/
+  .infocontenedor {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1%;
+  }
+  .about2 {
+    width: 100%;
+    height: auto;
+    border: 1px solid goldenrod;
+    border-radius: 1em;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 130%;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .info {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1%;
+  }
+  .about3 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid goldenrod;
+    border-radius: 1em;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 130%;
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .map {
+    margin: 0;
+    width: 400px;
+    height: 600px;
+  }
+  .contact-form {
+    margin: 0 0 0 0;
+    width: 400px;
+    height: 400px;
+  }
+  .about2 ul li {
+    list-style: none;
+    color: goldenrod;
+    text-align: right;
+    padding: 0;
+    padding-right: 80px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-family: "Inter Tight", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */
