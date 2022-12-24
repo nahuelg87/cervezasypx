@@ -226,7 +226,6 @@ p {
   color: goldenrod;
   text-align: right;
   padding: 0;
-  padding-right: 80px;
   padding-top: 2px;
   padding-bottom: 2px;
   font-size: 12px;
@@ -244,7 +243,6 @@ p {
   font-family: "Inter Tight", sans-serif;
   font-size: 20px;
   padding: 1px 1px 1px 1px;
-  margin: 20px 0px 0px 0px;
   background: rgba(0, 0, 0, 0.5);
 }
 
